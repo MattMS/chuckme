@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="author" content="Matt McKellar-Spence")
+		meta(name="description" content="Chuck Norris facts")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Chuck me
+	body
+		p#fact
+		script(type="text/javascript").
+			(function () {
+				var request = new XMLHttpRequest();
+				request.addEventListener('load', function () {
+					var raw_text = request.responseText;
+					var fact_list = JSON.parse(raw_text);
+					var index = parseInt(Math.random() * fact_list.length);
+					var fact = fact_list[index];
+					document.getElementById('fact').innerHTML = fact;
+				}, false);
+				request.open('get', './facts.json', true);
+				request.send();
+			})();
