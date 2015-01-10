@@ -1,7 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="Chuck Norris facts"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Chuck me</title><style type="text/css">#fact {
-	font-size: xx-large;
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="Chuck Norris facts"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Chuck me</title><style type="text/css">code, p {
 	text-align: center;
-}</style></head><body><p id="fact"></p><script type="text/javascript">(function () {
+}
+#fact {
+	font-size: xx-large;
+	margin-bottom: 2em;
+}</style></head><body><p id="fact"></p><code>npm install -g chuckme</code><p><a href="https://github.com/MattMS/chuckme">View on GitHub</a></p><script type="text/javascript">(function () {
 	var request = new XMLHttpRequest();
 	request.addEventListener('load', function () {
 		var raw_text = request.responseText;

@@ -8,12 +8,17 @@ html(lang="en")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		title Chuck me
 		style(type="text/css").
+			code, p {
+				text-align: center;
+			}
 			#fact {
 				font-size: xx-large;
-				text-align: center;
+				margin-bottom: 2em;
 			}
 	body
 		p#fact
+		code npm install -g chuckme
+		p: a(href="https://github.com/MattMS/chuckme") View on GitHub
 		script(type="text/javascript").
 			(function () {
 				var request = new XMLHttpRequest();
