@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+
+
+var facts_path = path.normalize(path.join(__dirname, '..', 'facts.json'));
+
+fs.readFile(facts_path, {encoding: 'utf8'}, function (err, raw_text) {
+	if (err) {
+		console.warn('Something went wrong. Pray to Chuck.');
+		process.exit(1);
+
+	} else {
+		var fact_list = JSON.parse(raw_text);
+		var index = parseInt(Math.random() * fact_list.length);
+		var fact = fact_list[index];
+		console.log(fact);
+	}
+});

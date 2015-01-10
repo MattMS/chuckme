@@ -1,0 +1,24 @@
+{
+  "name": "chuckme",
+  "version": "1.0.0",
+  "description": "Chuck Norris facts",
+  "main": "bin/chuckme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMS/chuckme.git"
+  },
+  "keywords": [
+    "Chuck",
+    "Norris",
+    "facts"
+  ],
+  "author": "Matt McKellar-Spence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattMS/chuckme/issues"
+  },
+  "homepage": "https://github.com/MattMS/chuckme"
+}
