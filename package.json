@@ -1,8 +1,11 @@
 {
   "name": "chuckme",
-  "version": "1.0.0",
+  "bin": {
+    "chuckme": "./bin/chuckme"
+  },
+  "version": "1.0.1",
   "description": "Chuck Norris facts",
-  "main": "bin/chuckme",
+  "main": "./bin/chuckme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
