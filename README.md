@@ -19,8 +19,12 @@ chosen by The Almighty.
 
 ## Sources
 
-- http://en.wikipedia.org/wiki/Chuck_Norris_facts
+- https://en.wikipedia.org/wiki/Chuck_Norris_facts
+
+- https://twitter.com/chuck_facts
 
 - http://www.chucknorrisfacts.com/chuck-norris-favorite-facts
 
 - http://www.chucknorrisfacts.com/chuck-norris-top-50-facts
+
+- http://www.chucknorrisjokes.linkpress.info/top-100.php
